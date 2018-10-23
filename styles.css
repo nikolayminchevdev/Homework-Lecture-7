@@ -1,0 +1,369 @@
+#containerHouse
+{
+    width: 800px;
+    height: 640px;
+    top:0px;
+    background-color: aqua;
+    position: absolute;
+    margin:0px;
+}
+
+#earth
+{
+    position:absolute;
+    width: 800px;
+    height: 50px;
+    background-color: #785537;
+    top: 590px;
+}
+
+#houseBody
+{
+    position: absolute;
+    height: 295px;
+    width: 290px;
+    background-color: #B3A9AE;
+    top: 290px;
+    left: 320px;
+    border: 5px solid royalblue;
+    border-top: 0;
+}
+
+#door
+{
+    position: absolute;
+    width: 50px;
+    height: 120px;
+    top: 180px;
+    left: 125px;
+    background-color: #575757;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+#line1
+{
+    border-bottom: 3px solid black;
+    width: 50px;
+    height: 60px;
+    position: absolute;
+}
+
+#line2
+{
+    border-left: 3px solid black;
+    left: 23px;
+    height: 120px;
+    position: absolute;
+}
+
+#doorNub
+{   background-color: black;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border-radius: 50%;
+    left: 30px;
+    top: 70px;
+}
+
+#window1
+{   background-color: yellow;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 50%;
+    left: 30px;
+    top: 40px;
+}
+
+#window2
+{   background-color: yellow;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 15%;
+    right: 30px;
+    top: 40px;
+}
+
+.bar1
+{
+    border-bottom: 5px solid #68A3BB;
+    width: 100px;
+    height: 47px;
+    position: absolute;
+}
+
+.bar2
+{
+    border-left: 5px solid #68A3BB;
+    left: 47px;
+    height: 100px;
+    position: absolute;
+}
+
+#roof
+{
+    width: 0;
+    height: 0;
+    border-left: 270px solid transparent;
+    border-right: 270px solid transparent;
+    border-bottom: 270px solid red;
+    position: absolute;
+    left: 200px;
+    top: 20px;
+}
+
+#chimneyBody
+{
+    width: 40px;
+    height: 100px;
+    left: 585px;
+    top: 82px;
+    background-color: darkred;
+    position: absolute;
+}
+
+#chimneyTop
+{
+    width: 60px;
+    height: 30px;
+    left: -10px;
+    top: -30px;
+    background-color: #9C3030;
+    position: absolute;
+}
+
+#bricks
+{
+    background-color: #9e9898;
+    width: 90px;
+    height: 70px;
+    top: 194px;
+    left: 9px;
+    border-radius: 20%;
+    position: absolute;
+}
+
+#bricks2
+{
+    background-color: #9e9898;
+    width: 90px;
+    height: 70px;
+    top: 147px;
+    left: 188px;
+    border-radius: 20%;
+    position: absolute;
+}
+
+.brickLine1
+{
+    position: absolute;
+    border-bottom: 3px solid #757171;
+    width: 80px;
+    left: 5px;
+    height: 20px;
+}
+
+.brickLine2
+{
+    position: absolute;
+    border-bottom: 3px solid #757171;
+    width: 70px;
+    left: 5px;
+    height: 50px;
+}
+
+.brickLine3
+{
+    position: absolute;
+    border-left: 3px solid #757171;
+    left: 17px;
+    height: 15px;
+    top:5px;
+}
+
+.brickLine4
+{
+    position: absolute;
+    border-left: 3px solid #757171;
+    left: 38px;
+    height: 28px;
+    top:23px;
+}
+
+.brickLine5
+{
+    position: absolute;
+    border-left: 3px solid #757171;
+    left: 65px;
+    height: 16px;
+    top:50px;
+}
+
+.brickLine6
+{
+    position: absolute;
+    border-left: 3px solid #757171;
+    left: 19px;
+    height: 16px;
+    top:50px;
+}
+
+.brickLine7
+{
+    position: absolute;
+    border-left: 3px solid #757171;
+    left: 70px;
+    height: 16px;
+    top:5px;
+}
+
+#smoke1
+{
+    position: absolute;
+    background-color: #969292;
+    width:10px;
+    height: 10px;
+    top: -23px;
+    left: 18px;
+    border-radius: 50%;
+    border: 5px solid #aca7a7;
+}
+
+#smoke2
+{
+    position: absolute;
+    background-color: #969292;
+    width:20px;
+    height: 10px;
+    top: -41px;
+    left:35px;
+    border-radius: 50%;
+    border: 5px solid #aca7a7;
+}
+
+#smoke3
+{
+    position: absolute;
+    background-color: #969292;
+    width:50px;
+    height: 25px;
+    top: -49px;
+    left:71px;
+    border-radius: 50%;
+    border: 5px solid #aca7a7;
+}
+
+#row1Tiles
+{
+    width: 364px;
+    height: 50px;
+    position: absolute;
+    left: -179px;
+    top: 220px;
+}
+
+#row2Tiles
+{
+    width: 218px;
+    height: 50px;
+    position: absolute;
+    left: -111px;
+    top: 167px;
+}
+
+#row3Tiles
+{
+    width: 146px;
+    height: 50px;
+    position: absolute;
+    left: -76px;
+    top: 120px;
+}
+
+#row4Tiles
+{
+    width: 87px;
+    height: 50px;
+    position: absolute;
+    left: -43px;
+    top: 73px;
+}
+
+.tile1
+{
+    width: 50px;
+    height: 40px;
+    position: relative;
+    display: inline-block;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    background-color: #ca3737;
+    margin-left: 15px;
+}
+
+#gallowsBase
+{
+    width: 20px;
+    height: 250px;
+    background-color: #503014;
+    border: 3px solid #7e512a;
+    top: 337px;
+    left: 200px;
+    position: absolute;
+}
+
+#gallowsTop
+{
+    width: 70px;
+    height: 20px;
+    background-color: #503014;
+    border: 3px solid #7e512a;
+    top: -3px;
+    left: -65px;
+    position: absolute;
+}
+
+#rope
+{
+    width: 8px;
+    height: 78px;
+    background-color: #f3e418;
+    top: 23px;
+    left: -52px;
+    position: absolute;
+}
+
+#ropeDetails
+{
+    position: absolute;
+    border-left: 3px dashed #9c9312;
+    left: 2px;
+    height: 78px;
+    top:0px;
+}
+
+#noose
+{
+    width: 20px;
+    height: 30px;
+    background-color: transparent;
+    top: 96px;
+    left: -66px;
+    position: absolute;
+    border-radius: 20px/20px;
+    border: 8px solid #f3e418;
+}
+
+#nooseDetails
+{
+    position: absolute;
+    border-radius: 50%;
+    border: 3px dashed #9c9312;
+    left: -6px;
+    height: 35px;
+    width: 26px;
+    top:-5px;
+}
